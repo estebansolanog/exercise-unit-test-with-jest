@@ -28,7 +28,7 @@ test("One dollar should be 134.2 yen", function(){
     //import the function from app.js
 
     // use the function like its suppoed to be used
-    const dollars = fromDollarToYen(3.5)
+    const yen = fromDollarToYen(4.9)
 
     // if 1 dollar are 134,2 yen, then 4.9 dollars should be (4.9 * 134.2)
     const expected = 4.9 * 134.2; 
@@ -41,7 +41,7 @@ test("One yen should be 0.006 pounds", function(){
     //import the function from app.js
 
     // use the function like its suppoed to be used
-    const dollars = fromYenToPound(3.5)
+    const pounds = fromYenToPound(1922)
 
     // 1 yen is 0.006 pounds, then 1922 yen should be = (1922 * 0.006)
     const expected = 1922 * 0.006; 
